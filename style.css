@@ -1,0 +1,153 @@
+.logo img {
+    width: 164px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Segoe UI";
+  }
+  
+  .right ul {
+    display: flex;
+    gap: 34px;
+  }
+  
+  .right ul li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .right ul li span {
+    padding: 0 5px;
+  }
+  .contain {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .head {
+    font-size: 50px;
+  }
+  .head img {
+    position: relative;
+    top: 30px;
+  }
+  .side {
+    font-size: larger;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    width: 50vw;
+    text-align: center;
+  }
+  .download button {
+    background-color: rgba(12, 151, 197, 0.689);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: monospace;
+  }
+  .logo2 img {
+    position: relative;
+    left: 200px;
+  }
+  .container {
+    border: 2px solid white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 25vw);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  .box {
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid white;
+    background-color: rgba(105, 105, 105, 0.041);
+  }
+  .name button {
+    background-color: rgba(7, 118, 7, 0.61);
+    font-size: small;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    width: 50%;
+    align-self: center;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-weight: bolder;
+    flex-direction: column;
+    position: relative;
+    top: 50px;
+    gap: 30px;
+  }
+  .box1 {
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+  }
+  .box2 {
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+  }
+  .box3 {
+    font-family: "Reddit Mono", monospace;
+    font-optical-sizing: auto;
+  }
+  .box4 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .box5 {
+    font-family: "IM Fell French Canon", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .box6 {
+    font-family: "Jacquard 12", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .box7 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .box8 {
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .box9 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+  }
+  .box10 {
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  .copy {
+    text-align: center;
+  }
+  @media only screen and (max-width: 1000px) {
+    .container {
+      grid-template-columns: 25vw;
+    }
+  }
+  
